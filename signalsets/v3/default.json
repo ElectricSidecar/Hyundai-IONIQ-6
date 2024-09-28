@@ -40,7 +40,7 @@
     {"id": "IONIQ6_HVBAT_CMU029_VOLT", "path": "Battery.Modules.029", "fmt": {"bix": 480, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 029 voltage"},
     {"id": "IONIQ6_HVBAT_CMU030_VOLT", "path": "Battery.Modules.030", "fmt": {"bix": 488, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 030 voltage"},
     {"id": "IONIQ6_HVBAT_CMU031_VOLT", "path": "Battery.Modules.031", "fmt": {"bix": 496, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 031 voltage"},
-    {"id": "IONIQ6_HVBAT_CMU032_VOLT", "path": "Battery.Modules.032", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 032 voltage"},
+    {"id": "IONIQ6_HVBAT_CMU032_VOLT", "path": "Battery.Modules.032", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 032 voltage"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0103"}, "freq": 1,
   "signals": [
@@ -75,7 +75,7 @@
     {"id": "IONIQ6_HVBAT_CMU061_VOLT", "path": "Battery.Modules.061", "fmt": {"bix": 480, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 061 voltage"},
     {"id": "IONIQ6_HVBAT_CMU062_VOLT", "path": "Battery.Modules.062", "fmt": {"bix": 488, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 062 voltage"},
     {"id": "IONIQ6_HVBAT_CMU063_VOLT", "path": "Battery.Modules.063", "fmt": {"bix": 496, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 063 voltage"},
-    {"id": "IONIQ6_HVBAT_CMU064_VOLT", "path": "Battery.Modules.064", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 064 voltage"},
+    {"id": "IONIQ6_HVBAT_CMU064_VOLT", "path": "Battery.Modules.064", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 064 voltage"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0104"}, "freq": 1,
   "signals": [
@@ -110,7 +110,7 @@
     {"id": "IONIQ6_HVBAT_CMU093_VOLT", "path": "Battery.Modules.093", "fmt": {"bix": 480, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 093 voltage"},
     {"id": "IONIQ6_HVBAT_CMU094_VOLT", "path": "Battery.Modules.094", "fmt": {"bix": 488, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 094 voltage"},
     {"id": "IONIQ6_HVBAT_CMU095_VOLT", "path": "Battery.Modules.095", "fmt": {"bix": 496, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 095 voltage"},
-    {"id": "IONIQ6_HVBAT_CMU096_VOLT", "path": "Battery.Modules.096", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 096 voltage"},
+    {"id": "IONIQ6_HVBAT_CMU096_VOLT", "path": "Battery.Modules.096", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 096 voltage"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010A"}, "freq": 1,
   "signals": [
@@ -145,7 +145,7 @@
     {"id": "IONIQ6_HVBAT_CMU125_VOLT", "path": "Battery.Modules.125", "fmt": {"bix": 480, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 125 voltage"},
     {"id": "IONIQ6_HVBAT_CMU126_VOLT", "path": "Battery.Modules.126", "fmt": {"bix": 488, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 126 voltage"},
     {"id": "IONIQ6_HVBAT_CMU127_VOLT", "path": "Battery.Modules.127", "fmt": {"bix": 496, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 127 voltage"},
-    {"id": "IONIQ6_HVBAT_CMU128_VOLT", "path": "Battery.Modules.128", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 128 voltage"},
+    {"id": "IONIQ6_HVBAT_CMU128_VOLT", "path": "Battery.Modules.128", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 128 voltage"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010B"}, "freq": 1,
   "signals": [
@@ -180,7 +180,7 @@
     {"id": "IONIQ6_HVBAT_CMU157_VOLT", "path": "Battery.Modules.157", "fmt": {"bix": 480, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 157 voltage"},
     {"id": "IONIQ6_HVBAT_CMU158_VOLT", "path": "Battery.Modules.158", "fmt": {"bix": 488, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 158 voltage"},
     {"id": "IONIQ6_HVBAT_CMU159_VOLT", "path": "Battery.Modules.159", "fmt": {"bix": 496, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 159 voltage"},
-    {"id": "IONIQ6_HVBAT_CMU160_VOLT", "path": "Battery.Modules.160", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 160 voltage"},
+    {"id": "IONIQ6_HVBAT_CMU160_VOLT", "path": "Battery.Modules.160", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 160 voltage"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "010C"}, "freq": 1,
   "signals": [
@@ -215,7 +215,7 @@
     {"id": "IONIQ6_HVBAT_CMU189_VOLT", "path": "Battery.Modules.189", "fmt": {"bix": 480, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 189 voltage"},
     {"id": "IONIQ6_HVBAT_CMU190_VOLT", "path": "Battery.Modules.190", "fmt": {"bix": 488, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 190 voltage"},
     {"id": "IONIQ6_HVBAT_CMU191_VOLT", "path": "Battery.Modules.191", "fmt": {"bix": 496, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 191 voltage"},
-    {"id": "IONIQ6_HVBAT_CMU192_VOLT", "path": "Battery.Modules.192", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 192 voltage"},
+    {"id": "IONIQ6_HVBAT_CMU192_VOLT", "path": "Battery.Modules.192", "fmt": {"bix": 504, "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "HV battery module 192 voltage"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0105"}, "freq": 1,
   "signals": [
