@@ -12,7 +12,7 @@
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0101"}, "freq": 1,
   "signals": [
-    {"id": "IONIQ6_HVBAT_SOC", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "IONIQ6_HVBAT_SOC", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge (dash)", "suggestedMetric": "stateOfCharge"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0102"}, "freq": 1,
   "signals": [
@@ -226,7 +226,7 @@
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0105"}, "freq": 1,
   "signals": [
-    {"id": "IONIQ6_HVBAT_SOC_DISP", "path": "Battery", "fmt": {"bix": 248, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge (displayed)", "suggestedMetric": "stateOfCharge"},
+    {"id": "IONIQ6_HVBAT_SOC_DISP", "path": "Battery", "fmt": {"bix": 248, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"},
     {"id": "IONIQ6_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 200, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery state of health", "suggestedMetric": "stateOfHealth"},
     {"id": "IONIQ6_HVBAT_WH", "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 100, "mul": 2, "div": 1000, "unit": "kilowattHours" }, "name": "HV battery remaining energy"}
   ]}
