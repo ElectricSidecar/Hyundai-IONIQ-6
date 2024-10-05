@@ -12,6 +12,13 @@
     {"id": "IONIQ6_HVBAT_CHRG_CNT",    "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 65535,            "unit": "scalar"  }, "name": "Number of DC charges"},
     {"id": "IONIQ6_DC_CHRG_TIME",      "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 65535,            "unit": "hours"   }, "name": "Total DC charging time"}
   ]},
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00B"}, "freq": 5,
+  "signals": [
+    {"id": "IONIQ6_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "IONIQ6_TP_FR", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "IONIQ6_TP_RL", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "IONIQ6_TP_RR", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51, "div": 5, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"}
+  ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0101"}, "freq": 1,
   "signals": [
     {"id": "IONIQ6_HVBAT_SOC", "path": "Battery", "fmt": {"bix": 32, "len": 8, "max": 100, "mul": 0.5, "unit": "percent" }, "name": "HV battery charge (dash)", "suggestedMetric": "stateOfCharge"}
